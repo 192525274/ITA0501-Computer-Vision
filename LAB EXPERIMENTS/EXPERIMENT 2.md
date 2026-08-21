@@ -1,5 +1,5 @@
 ## PROGRAM
-''' Python
+``` Python
 import cv2
 image = cv2.imread(r"C:\Users\sathw\OneDrive\Desktop\Computer Vision\Sample image.jpeg")
 blurred_image = cv2.GaussianBlur(image, (15, 15), 0) 
